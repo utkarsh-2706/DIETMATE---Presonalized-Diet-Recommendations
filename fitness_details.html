@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fitness_details.css">
+    <title>Diet Mate - Fitness Details</title>
+</head>
+<body>
+
+    <!-- Home option -->
+<div class="home-link">
+    <a href="index.html">Home</a>
+</div>
+
+<header>
+    <div class="logo-container">
+        <img src="images/dietmate.jpeg" alt="DIETMATE Logo" class="logo">
+        <span class="mate-text">MATE</span>
+    </div>
+    <h1>DIET-MATE</h1>
+</header>
+
+<nav>
+    <a href="customized_diet.html">Make Your Customized Diet Plan</a>
+    <a href="track_nutrition.html">Track Your Nutrition Goals</a>
+    <a href="fitness_details.html">Get Your Fitness Details</a>
+</nav>
+
+<main>
+    <section class="fitness-options">
+        <div class="option" onclick="redirectToBMI()">
+            <p>Calculate BMI</p>
+            <h2><small> Body Mass Index</small></h2>
+        </div>
+        <div class="option" onclick="redirectToCaloricNeeds()">
+            <p>Estimate your Nutritional Requirements</p>
+            <h2><small> caloric intake and protein intake</small></h2>
+        </div>
+        <!-- Add more fitness options as needed -->
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 DIETMATE. All rights reserved.</p>
+</footer>
+
+<script>
+    function redirectToBMI() {
+        window.location.href = "bmi_calculator.html";
+    }
+
+    function redirectToCaloricNeeds() {
+        window.location.href = "requirements.html";
+    }
+</script>
+
+</body>
+</html>

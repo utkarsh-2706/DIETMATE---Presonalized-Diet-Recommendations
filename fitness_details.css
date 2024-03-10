@@ -1,0 +1,221 @@
+/* Your CSS styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.mate-text {
+    font-size: 1.5em; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.fitness-options {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    background-color: #fff;
+    padding: 50px; /* Increase the padding for larger boxes */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    flex: 1; /* Equal width for both boxes */
+}
+
+.option:hover {
+    transform: scale(1.05);
+}
+
+.option img {
+    max-width: 80px;
+}
+.option h3 {
+    color: #4CAF50; /* Green text color */
+    font-size: 1.8em; /* Increase the font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space between heading and paragraph */
+}
+
+.option p {
+    color: #4CAF50; /* Green text color */
+    font-size: 1.5em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* ... (previous CSS styles) ... */
+.home-link {
+    position: fixed;
+    top: 10px; /* Adjust the top value based on your design */
+    right: 10px; /* Adjust the right value based on your design */
+    padding: 10px;
+    z-index: 1000;
+}
+
+.home-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: border 0.3s ease;
+}
+
+.home-link:hover a {
+    border: 2px solid #fff;
+    padding: 8px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.bmi-calculator {
+    text-align: center;
+    padding: 20px;
+}
+
+.bmi-calculator h2 {
+    color: #4CAF50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* ... (remaining CSS styles) ... */
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.calculator-section {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 600px; /* Set a maximum width to prevent it from covering too much space */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* Remove the following line to make the footer part of the document flow */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
