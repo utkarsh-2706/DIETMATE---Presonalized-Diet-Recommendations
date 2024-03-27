@@ -1,0 +1,714 @@
+[
+  {
+    "food_category": "breakfast",
+    "food_item": "sooji upma",
+    "calories": 204,
+    "protein": 4.1,
+    "fats": 5.3,
+    "carbs": 20
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "idli",
+    "calories": 58,
+    "protein": 1.6,
+    "fats": 0.3,
+    "carbs": 12
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "sambhar",
+    "calories": 133,
+    "protein": 5.9,
+    "fats": 3.2,
+    "carbs": 14.8
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "poha",
+    "calories": 92,
+    "protein": 3.7,
+    "fats": 2.9,
+    "carbs": 17.2
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "aloo pyaz paratha",
+    "calories": 177,
+    "protein": 5,
+    "fats": 14.5,
+    "carbs": 45.25
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "uttapam",
+    "calories": 59,
+    "protein": 2.6,
+    "fats": 3.1,
+    "carbs": 5.4
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "poori",
+    "calories": 30,
+    "protein": 1.8,
+    "fats": 9.8,
+    "carbs": 11.3
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "bhaji",
+    "calories": 196,
+    "protein": 4.4,
+    "fats": 8.7,
+    "carbs": 17
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "pao",
+    "calories": 180,
+    "protein": 1.2,
+    "fats": 4.8,
+    "carbs": 11.37
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "dahi",
+    "calories": 78,
+    "protein": 11,
+    "fats": 8,
+    "carbs": 7.24
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "boiled egg",
+    "calories": 50,
+    "protein": 6,
+    "fats": 5,
+    "carbs": 0.38
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "egg bhurji",
+    "calories": 85,
+    "protein": 13.3,
+    "fats": 18.9,
+    "carbs": 21.2
+  },
+  {
+    "food_category": "fruits",
+    "food_item": "orange",
+    "calories": 60,
+    "protein": 1.3,
+    "fats": 0.2,
+    "carbs": 14.8
+  },
+  {
+    "food_category": "fruits",
+    "food_item": "banana",
+    "calories": 89,
+    "protein": 1.3,
+    "fats": 0.4,
+    "carbs": 19.5
+  },
+  {
+    "food_category": "fruits",
+    "food_item": "papaya",
+    "calories": 30,
+    "protein": 1.1,
+    "fats": 0.4,
+    "carbs": 16.6
+  },
+  {
+    "food_category": "fruits",
+    "food_item": "mix fruit",
+    "calories": 57,
+    "protein": 1.5,
+    "fats": 0.4,
+    "carbs": 15.9
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "sweet daliya",
+    "calories": 123,
+    "protein": 5.8,
+    "fats": 21.8,
+    "carbs": 36
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "corn flakes",
+    "calories": 360,
+    "protein": 7,
+    "fats": 0.1,
+    "carbs": 59.25
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "veg oats",
+    "calories": 69,
+    "protein": 2.5,
+    "fats": 1.1,
+    "carbs": 28
+  },
+  {
+    "food_category": "breakfast",
+    "food_item": "chocos",
+    "calories": 387,
+    "protein": 7,
+    "fats": 2.9,
+    "carbs": 51.94
+  },
+  {
+    "food_category": "breads",
+    "food_item": "brown bread",
+    "calories": 77,
+    "protein": 3,
+    "fats": 0.9,
+    "carbs": 27
+  },
+  {
+    "food_category": "breads",
+    "food_item": "white bread",
+    "calories": 66,
+    "protein": 1.9,
+    "fats": 1.3,
+    "carbs": 25
+  },
+  {
+    "food_category": "beverages",
+    "food_item": "milk",
+    "calories": 59,
+    "protein": 8,
+    "fats": 8,
+    "carbs": 12
+  },
+  {
+    "food_category": "beverages",
+    "food_item": "tea",
+    "calories": 30,
+    "protein": 7,
+    "fats": 7,
+    "carbs": 12
+  },
+  {
+    "food_category": "beverages",
+    "food_item": "coffee",
+    "calories": 30,
+    "protein": 7,
+    "fats": 7,
+    "carbs": 12
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "beans masala",
+    "calories": 69,
+    "protein": 7.8,
+    "fats": 4.2,
+    "carbs": 17.36
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "dum aloo",
+    "calories": 180,
+    "protein": 4.12,
+    "fats": 12,
+    "carbs": 23.42
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "egg curry",
+    "calories": 120,
+    "protein": 16.83,
+    "fats": 13,
+    "carbs": 8
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "kofta curry",
+    "calories": 245,
+    "protein": 10,
+    "fats": 13,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "cabbage masala",
+    "calories": 42,
+    "protein": 2.5,
+    "fats": 7,
+    "carbs": 14
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "kadhai veg",
+    "calories": 120,
+    "protein": 7,
+    "fats": 10,
+    "carbs": 13
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "veg makhani",
+    "calories": 120,
+    "protein": 7,
+    "fats": 14,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "soya keema matar",
+    "calories": 200,
+    "protein": 18,
+    "fats": 10,
+    "carbs": 14
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "matar makhana",
+    "calories": 218,
+    "protein": 7,
+    "fats": 7,
+    "carbs": 17
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "kadhai soya",
+    "calories": 185,
+    "protein": 13,
+    "fats": 10,
+    "carbs": 12
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "baigun bharta",
+    "calories": 200,
+    "protein": 3,
+    "fats": 7,
+    "carbs": 13
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "shahi paneer",
+    "calories": 135,
+    "protein": 13,
+    "fats": 10,
+    "carbs": 17
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "aloo achari",
+    "calories": 120,
+    "protein": 3,
+    "fats": 10,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "kadhai paneer",
+    "calories": 185,
+    "protein": 14,
+    "fats": 17,
+    "carbs": 12
+  },
+  {
+    "food_category": "dal",
+    "food_item": "rajma",
+    "calories": 158,
+    "protein": 14,
+    "fats": 2.4,
+    "carbs": 24.21
+  },
+  {
+    "food_category": "dal",
+    "food_item": "red masoor",
+    "calories": 186,
+    "protein": 13.21,
+    "fats": 2.3,
+    "carbs": 21.28
+  },
+  {
+    "food_category": "dal",
+    "food_item": "dhaba dal",
+    "calories": 157,
+    "protein": 13.68,
+    "fats": 10.12,
+    "carbs": 18
+  },
+  {
+    "food_category": "dal",
+    "food_item": "dal makhani",
+    "calories": 181,
+    "protein": 13,
+    "fats": 16,
+    "carbs": 25
+  },
+  {
+    "food_category": "dal",
+    "food_item": "arhar dal tadka",
+    "calories": 137,
+    "protein": 13,
+    "fats": 6,
+    "carbs": 23
+  },
+  {
+    "food_category": "dal",
+    "food_item": "kadi pakoda",
+    "calories": 139,
+    "protein": 9.85,
+    "fats": 11.1,
+    "carbs": 19.754
+  },
+  {
+    "food_category": "dal",
+    "food_item": "dal panchratan",
+    "calories": 155,
+    "protein": 14,
+    "fats": 10,
+    "carbs": 24
+  },
+  {
+    "food_category": "rice",
+    "food_item": "steamed rice",
+    "calories": 130,
+    "protein": 4.52,
+    "fats": 0.7,
+    "carbs": 47
+  },
+  {
+    "food_category": "rice",
+    "food_item": "jeera rice",
+    "calories": 140,
+    "protein": 4.2,
+    "fats": 6.1,
+    "carbs": 45.23
+  },
+  {
+    "food_category": "breads",
+    "food_item": "roti",
+    "calories": 280,
+    "protein": 3.6,
+    "fats": 1,
+    "carbs": 16
+  },
+  {
+    "food_category": "salad",
+    "food_item": "lacha onion",
+    "calories": 68,
+    "protein": 1,
+    "fats": 1,
+    "carbs": 8
+  },
+  {
+    "food_category": "salad",
+    "food_item": "green salad",
+    "calories": 17,
+    "protein": 2,
+    "fats": 0.4,
+    "carbs": 2.4
+  },
+  {
+    "food_category": "salad",
+    "food_item": "masala onion",
+    "calories": 68,
+    "protein": 1.3,
+    "fats": 0.8,
+    "carbs": 7
+  },
+  {
+    "food_category": "salad",
+    "food_item": "three beans salad",
+    "calories": 100,
+    "protein": 1.1,
+    "fats": 1.2,
+    "carbs": 6.4
+  },
+  {
+    "food_category": "raita",
+    "food_item": "sweet lassi",
+    "calories": 78,
+    "protein": 6.7,
+    "fats": 5.7,
+    "carbs": 16.3
+  },
+  {
+    "food_category": "raita",
+    "food_item": "tadka raita",
+    "calories": 85,
+    "protein": 4,
+    "fats": 4,
+    "carbs": 8
+  },
+  {
+    "food_category": "raita",
+    "food_item": "mix fruit raita",
+    "calories": 120,
+    "protein": 5,
+    "fats": 6,
+    "carbs": 9
+  },
+  {
+    "food_category": "raita",
+    "food_item": "boondi raita",
+    "calories": 69,
+    "protein": 4,
+    "fats": 4,
+    "carbs": 7
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "coleslaw s/w",
+    "calories": 216,
+    "protein": 7,
+    "fats": 7,
+    "carbs": 40
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "red sauce pasta",
+    "calories": 168,
+    "protein": 8,
+    "fats": 1,
+    "carbs": 46
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "corn n cheese s/w",
+    "calories": 330,
+    "protein": 6,
+    "fats": 6,
+    "carbs": 45
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "vermicilli upma",
+    "calories": 204,
+    "protein": 6,
+    "fats": 1.5,
+    "carbs": 44
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "dahi papdi",
+    "calories": 291,
+    "protein": 7,
+    "fats": 6,
+    "carbs": 34
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "paani poori",
+    "calories": 320,
+    "protein": 2,
+    "fats": 9,
+    "carbs": 17
+  },
+  {
+    "food_category": "snacks",
+    "food_item": "assorted pakoda",
+    "calories": 333,
+    "protein": 8,
+    "fats": 11,
+    "carbs": 59
+  },
+  {
+    "food_category": "beverages",
+    "food_item": "nimbu pani",
+    "calories": 25,
+    "protein": 2,
+    "fats": 2,
+    "carbs": 12
+  },
+  {
+    "food_category": "beverages",
+    "food_item": "tang",
+    "calories": 54,
+    "protein": 1,
+    "fats": 3,
+    "carbs": 13
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "tawa veg",
+    "calories": 102,
+    "protein": 6,
+    "fats": 9,
+    "carbs": 13
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "matar paneer",
+    "calories": 134,
+    "protein": 13,
+    "fats": 13,
+    "carbs": 17
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "sitafal subzi",
+    "calories": 55,
+    "protein": 3,
+    "fats": 8,
+    "carbs": 17
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "gatta curry",
+    "calories": 112,
+    "protein": 12,
+    "fats": 12,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "aloo gobhi",
+    "calories": 89,
+    "protein": 6,
+    "fats": 8,
+    "carbs": 17
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "lauki chana",
+    "calories": 120,
+    "protein": 10,
+    "fats": 6,
+    "carbs": 23
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "lauki lababdar",
+    "calories": 185,
+    "protein": 8,
+    "fats": 13,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "gajar methi",
+    "calories": 102,
+    "protein": 4,
+    "fats": 8,
+    "carbs": 18
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "aloo tamatar jhol",
+    "calories": 196,
+    "protein": 7,
+    "fats": 7,
+    "carbs": 20
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "sev bhaji",
+    "calories": 156,
+    "protein": 6,
+    "fats": 11,
+    "carbs": 15
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "soya chaap masala",
+    "calories": 210,
+    "protein": 16,
+    "fats": 14,
+    "carbs": 14
+  },
+  {
+    "food_category": "veg sabzi",
+    "food_item": "aloo matar pyaz",
+    "calories": 185,
+    "protein": 6,
+    "fats": 6,
+    "carbs": 16
+  },
+  {
+    "food_category": "dal",
+    "food_item": "chana dal tadka",
+    "calories": 144,
+    "protein": 7,
+    "fats": 4,
+    "carbs": 26
+  },
+  {
+    "food_category": "dal",
+    "food_item": "dal bukhara",
+    "calories": 156,
+    "protein": 12,
+    "fats": 13,
+    "carbs": 18
+  },
+  {
+    "food_category": "dal",
+    "food_item": "kala chana masala",
+    "calories": 258,
+    "protein": 9,
+    "fats": 4,
+    "carbs": 35
+  },
+  {
+    "food_category": "dal",
+    "food_item": "dal lobiya",
+    "calories": 200,
+    "protein": 10,
+    "fats": 7,
+    "carbs": 27
+  },
+  {
+    "food_category": "dal",
+    "food_item": "black masoor dal",
+    "calories": 127,
+    "protein": 11,
+    "fats": 3,
+    "carbs": 26
+  },
+  {
+    "food_category": "dal",
+    "food_item": "mix dal",
+    "calories": 288,
+    "protein": 13,
+    "fats": 4,
+    "carbs": 29
+  },
+  {
+    "food_category": "dessert",
+    "food_item": "rice kheer",
+    "calories": 196,
+    "protein": 4,
+    "fats": 8,
+    "carbs": 26
+  },
+  {
+    "food_category": "dessert",
+    "food_item": "sooji halwa",
+    "calories": 185,
+    "protein": 4,
+    "fats": 14,
+    "carbs": 24
+  },
+  {
+    "food_category": "dessert",
+    "food_item": "coconut burfi",
+    "calories": 370,
+    "protein": 2,
+    "fats": 7,
+    "carbs": 12
+  },
+  {
+    "food_category": "dessert",
+    "food_item": "besan ladoo",
+    "calories": 273,
+    "protein": 3,
+    "fats": 7,
+    "carbs": 5
+  },
+  {
+    "food_category": "dessert",
+    "food_item": "gulab jamun",
+    "calories": 323,
+    "protein": 3,
+    "fats": 8,
+    "carbs": 25
+  }
+]

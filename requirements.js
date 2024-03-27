@@ -59,4 +59,3 @@ function calculateNutrition() {
     // Show the result container
     resultContainer.style.display = 'block';
 }
-
