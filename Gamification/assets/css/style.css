@@ -82,7 +82,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: #0f0f0f;
+    background:  rgb(44, 225, 56);
 }
 
 #header .logo h1 {
