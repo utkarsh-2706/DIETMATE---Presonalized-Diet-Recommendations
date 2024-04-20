@@ -6,23 +6,30 @@
     <title>DIETMATE</title>
     <!-- Link your CSS file here -->
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jockey One:wght@400&display=swap"
+    />
   </head>
   <body>
-    <header>
+    <nav>
       <div class="logo-container">
         <img src="dietmate logo final.png" alt="DIETMATE Logo" class="logo" />
       </div>
-      <h1 class="dietmate-title">DIETMATE</h1>
-    </header>
-
-    <nav>
       <a href="customized_diet.html">Make Your Customized Diet Plan</a>
       <a href="track_nutrition.html">Track Your Nutrition Goals</a>
       <a href="fitness_details.html">Get Your Fitness Details</a>
       <a href="./Gamification/index.html">7 Day Diet Crash Plan</a>
       <a href="./FindMeal/findMeal.html">Find Meal by Ingredient</a>
       <a href="browsefoods.html">Browse Meals</a>
-      
     </nav>
 
     <section class="hero-section">
@@ -30,7 +37,7 @@
         <h2>Take Control of Your Health</h2>
         <p>With Our Tailored Diet Plans</p>
         <a href="customized_diet.html"
-          ><button id="createNowButton">Create Now</button></a
+          ><button id="createNowButton">Create Now !</button></a
         >
       </div>
       <div class="hero-image">
@@ -69,6 +76,27 @@
     <section class="faq-section">
       <h2>Frequently Asked Questions</h2>
       <div class="faq-item">
+        <button class="question-btn" onclick="toggleAnswer('answer2')">
+          What is DietMate?
+        </button>
+        <div class="answer" id="answer2">
+          DietMate is a personalized dietary planning web application designed
+          to help individuals make informed food choices based on their unique
+          health needs and goals.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="question-btn" onclick="toggleAnswer('answer3')">
+          How does DietMate work?
+        </button>
+        <div class="answer" id="answer3">
+          DietMate utilizes advanced AI technology to analyze user data,
+          including health metrics, dietary preferences, and lifestyle factors.
+          Based on this information, it generates personalized diet plans
+          tailored to each user's specific nutritional requirements.
+        </div>
+      </div>
+      <div class="faq-item">
         <button class="question-btn" onclick="toggleAnswer('answer1')">
           Why is it important to recommend specific diets for people with
           multiple health conditions?
@@ -96,10 +124,10 @@
         </div>
       </div>
       <div class="faq-item">
-        <button class="question-btn" onclick="toggleAnswer('answer2')">
+        <button class="question-btn" onclick="toggleAnswer('answer4')">
           What are some misconceptions about obesity?
         </button>
-        <div class="answer" id="answer2">
+        <div class="answer" id="answer4">
           Some misconceptions about obesity include the belief that it is solely
           a result of poor willpower or laziness, when in fact it is a complex
           condition influenced by a variety of factors such as genetics,
@@ -108,11 +136,65 @@
           deserve to be treated with respect and compassion.
         </div>
       </div>
+      <div class="faq-item">
+        <button class="question-btn" onclick="toggleAnswer('answer5')">
+          Is DietMate user-friendly?
+        </button>
+        <div class="answer" id="answer5">
+          Yes, DietMate features a user-friendly interface that makes it easy
+          for users to input their information and navigate through the
+          platform. The process of generating personalized diet plans is
+          intuitive and straightforward.
+        </div>
+      </div>
       <!-- Add more FAQ items as needed -->
     </section>
 
-    <footer>
+    <!--<<footer>
+
       <p>&copy; 2024 DIETMATE. All rights reserved.</p>
+    </footer>>-->
+    <footer class="footer">
+      <div class="footer-left">
+        <img
+          src="dietmate logo final.png"
+          alt="Diet Mate Logo"
+          class="footer-logo"
+        />
+        <div class="social-icons">
+          <a href="#" class="social-icon-link"><img src="linkedin.svg" alt="LinkedIn"></a>
+          <a href="#" class="social-icon-link"><img src="insta.svg" alt="Instagram"></a>
+          <a href="#" class="social-icon-link"><img src="twitter.svg" alt="Twitter"></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="customized_diet.html" class="footer-link"
+            >Create Diet Plan</a
+          >
+          <a href="fitness_details.html" class="footer-link"
+            >Get Your Fitness Details</a
+          >
+          
+          <a href="terms_of_service.html" class="footer-link"
+            >Terms of Service</a
+          >
+          <a href="privacy_policy.html" class="footer-link">Privacy Policy</a>
+        </div>
+      <div class="footer-left">
+        <div class="footer-links">
+          <a href="about_us.html" class="footer-link">About Us</a>
+          <a href="terms_of_service.html" class="footer-link"
+            >Terms of Service</a
+          >
+          <a href="privacy_policy.html" class="footer-link">Privacy Policy</a>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:support@dietmate.bu.in" class="contact-link"
+            >support@dietmate.bu.in</a
+          >
+        </div>
+      </div>
     </footer>
 
     <!-- Link your JavaScript file here -->
