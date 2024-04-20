@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Your Diet Plan</title>
-    
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIETMATE</title>
+    <!-- Link your CSS file here -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="dietmate logo final.png" alt="DIETMATE Logo" class="logo" />
+      </div>
+      <h1 class="dietmate-title">DIETMATE</h1>
+    </header>
+
+    <nav>
+      <a href="customized_diet.html">Make Your Customized Diet Plan</a>
+      <a href="track_nutrition.html">Track Your Nutrition Goals</a>
+      <a href="fitness_details.html">Get Your Fitness Details</a>
+      <a href="./Gamification/index.html">7 Day Diet Crash Plan</a>
+      <a href="./FindMeal/findMeal.html">Find Meal by Ingredient</a>
+      <a href="browsefoods.html">Browse Meals</a>
+    </nav>
+
+    <section class="hero-section">
+      <div class="hero-text">
+        <h2>Put your Diet on Autopilot!</h2>
+        <p>Discover Your Fitness Profile : Nutrition Essentials Calculator</p>
+        <a href="customized_diet.html"
+          ><button id="createNowButton">Create Now</button></a
+        >
+      </div>
+      <div class="hero-image">
+        <img src="images/dod84jxf.png" alt="Hero Image" />
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button class="question-btn" onclick="toggleAnswer('answer1')">
+          Why is it important to recommend specific diets for people with
+          multiple health conditions?
+        </button>
+        <div class="answer" id="answer1">
+          It is important to recommend specific diets for people with multiple
+          health conditions because what we eat can have a significant impact on
+          our health. Different health conditions may require specific dietary
+          modifications to help manage symptoms and prevent further health
+          complications. For example, individuals with high blood pressure may
+          need to limit their sodium intake, while individuals with diabetes may
+          need to manage their carbohydrate intake to help regulate blood sugar
+          levels. Additionally, certain health conditions may have overlapping
+          dietary recommendations. For example, a diet that is rich in fruits,
+          vegetables, whole grains, lean protein, and healthy fats can benefit
+          individuals with multiple health conditions such as diabetes, heart
+          disease, and obesity. By recommending specific diets for people with
+          multiple health conditions, healthcare providers and registered
+          dietitians can help individuals better manage their health and reduce
+          their risk of further health complications. It can also help
+          individuals feel more in control of their health and improve their
+          overall quality of life. However, it is important to consult with a
+          healthcare provider or a registered dietitian to determine the best
+          diet plan for your specific needs and health status
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="question-btn" onclick="toggleAnswer('answer2')">
+          What are some misconceptions about obesity?
+        </button>
+        <div class="answer" id="answer2">
+          Some misconceptions about obesity include the belief that it is solely
+          a result of poor willpower or laziness, when in fact it is a complex
+          condition influenced by a variety of factors such as genetics,
+          environment, behaviour, and physiology. Additionally, weight is not
+          always a reliable indicator of health, and individuals of all sizes
+          deserve to be treated with respect and compassion.
+        </div>
+      </div>
+      <!-- Add more FAQ items as needed -->
+    </section>
+
+    <footer>
+      <p>&copy; 2024 DIETMATE. All rights reserved.</p>
+    </footer>
+
+    <!-- Link your JavaScript file here -->
+    <script src="script.js"></script>
+  </body>
 </html>
