@@ -51,7 +51,7 @@ nav a {
   transition: background-color 0.3s ease;
   font-size: 18px;
   background-color: #ff6733;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-right: 10px;
   text-align: center;
 }
@@ -211,10 +211,59 @@ main {
   border-radius: 5px;
 }
 
-footer {
-  background-color: #333;
+.footer {
+  background-color: #262a3b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px; /* Adjust logo size as needed */
+}
+
+.social-links {
+  margin-left: 20px;
+}
+
+.social-link {
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-link {
+  color: #ffffff;
+}
+.footer a {
+  color: white; /* Change hyperlink color to white */
+  text-decoration: none; /* Remove default underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-right: auto;
 }
