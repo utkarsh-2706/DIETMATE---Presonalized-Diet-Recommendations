@@ -49,14 +49,19 @@ nav a {
   padding: 30px 20px;
   display: inline-block;
   transition: background-color 0.3s ease;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #ff6733;
   border-radius: 20px;
   margin-right: 10px;
+  text-align: center;
+}
+
+.nav {
+  /* Add any other styles you want for the navbar */
 }
 
 nav a:hover {
-  background-color: #44d07b;
+  background-color: #ffffff;
 }
 main {
   display: flex;
@@ -69,12 +74,14 @@ main {
   background-color: #fff;
   padding: 20px;
   border-radius: 35px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
   text-align: center;
-  width: 80%; /* Adjust the width as needed */
-  height: 0;
-  padding-bottom: 20%; /* 4:3 aspect ratio (3 / 4 * 100) */
+  width: 90%; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   transition: transform 0.3s ease;
   background-size: cover;
   background-position: center;
@@ -160,7 +167,11 @@ main {
 }
 
 .faq-section {
-  background-color: #f4f4f4; /* Adjust background color as needed */
+  background: linear-gradient(
+    to bottom,
+    #b6efb2,
+    #ffffff
+  ); /* Adjust background color as needed */
   padding: 50px;
 }
 
@@ -181,7 +192,7 @@ main {
 }
 
 .question-btn {
-  background-color: #4caf50;
+  background-color: #ff6733;
   color: white;
   padding: 10px;
   font-size: 1.2em;
